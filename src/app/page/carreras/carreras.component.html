@@ -1,0 +1,7 @@
+<h1>Crear Carrera</h1>
+<link rel="stylesheet" href="carreras.component.scss"/>
+<label for="txtNombre" >Nombre:</label>
+<input id="txtNombre" [(ngModel)]="carrera.name"/>
+<label for="txtCiclo">Numero de Ciclos:</label>
+<input id="txtCiclo" [(ngModel)]="carrera.numCiclo"/>
+<button (click)="guardar()">Crear</button>

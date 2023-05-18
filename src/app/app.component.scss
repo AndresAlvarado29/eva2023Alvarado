@@ -1,0 +1,17 @@
+.encabezado{
+background-color: bisque;
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+}
+    .enlace{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding: 20px;
+    }
+}
+img{
+    float: right;
+}

@@ -1,0 +1,16 @@
+<p>Lista de Carrera</p>
+
+<span *ngIf="listadoCarreras.length == 0">
+    No existen contactos
+</span>
+
+<ul>
+    <li *ngFor="let carrera of listadoCarreras">
+        <p>
+            Nombre: {{carrera.name}} | Numero de Ciclos: {{carrera.numCiclo}}
+        </p>
+        <ul>
+    </ul>
+    </li>
+    
+</ul>
